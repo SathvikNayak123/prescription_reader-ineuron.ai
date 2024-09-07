@@ -35,7 +35,7 @@ class ImageToText:
             cv2.polylines(img, [np.array(box_coords, np.int32)], isClosed=True, color=(0, 255, 0), thickness=2)
             
             #Adds the detected text on top of the image, near the bounding box
-            cv2.putText(img, text[1][0], tuple(map(int, box_coords[0])), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 0, 0), 2)
+            cv2.putText(img, text[1][0], tuple(map(int, box_coords[0])), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 0, 255), 2)
 
         # Encodes the image as a JPEG format and stores it in a buffer.
         _, buffer = cv2.imencode('.jpg', img)
