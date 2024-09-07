@@ -32,4 +32,4 @@ You can install these dependencies using `pip install -r requirements.txt`:
 
 ### Results
 ![image with extracted text](result_image.jpg)
-![downloaded audio](result_audio.mp3)
+[downloaded audio](result_audio.mp3)
