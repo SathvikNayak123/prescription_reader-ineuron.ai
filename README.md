@@ -32,7 +32,3 @@ You can install these dependencies using `pip install -r requirements.txt`:
 
 ### Results
 ![image with extracted text](result_image.jpg)
-<audio controls>
-  <source src="result_audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
