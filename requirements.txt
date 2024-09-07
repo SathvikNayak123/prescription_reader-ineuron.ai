@@ -1,0 +1,6 @@
+streamlit
+paddlepaddle
+paddleocr
+gtts
+opencv-python-headless
+numpy
