@@ -28,8 +28,8 @@ You can install these dependencies using `pip install -r requirements.txt`:
 - `app.py`: The main script that runs the Streamlit web application. This file handles the user interface, allowing users to upload images, extract text, and convert text to speech.
 
 ### Input Image
-!(drug1.jpg)
+![input](drug1.jpg)
 
 ### Results
-!(result_image.jpg)
-!(result_audio.mp3)
+![image with extracted text](result_image.jpg)
+![downloaded audio](result_audio.mp3)
